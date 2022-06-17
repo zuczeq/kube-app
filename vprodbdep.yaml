@@ -9,7 +9,7 @@ spec:
     matchLabels:
       app: vprodb
   replicas: 1
-  templates:
+  template:
     metadata:
       labels:
         app: vprodb
